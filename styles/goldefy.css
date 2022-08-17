@@ -1,0 +1,284 @@
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-22px {
+  margin-top: 22px !important;
+}
+.mt-12px {
+  margin-top: 12px !important;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 24px 0;
+  background-color: #00090c;
+}
+
+.footerdiv {
+  position: relative;
+  width: 100%;
+  padding: 24px 0;
+  background-color: #00090c;
+}
+
+
+.headerdiv{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+footer > div > .footerSection {
+  max-width: 1410px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerCopyright > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+button.footerLogo {
+  width: 260px;
+  height: 97px;
+  background-image: url("/images/logoFooter.png");
+  background-repeat: no-repeat;
+  background-position-x: -65px;
+  background-color: #00090c;
+  border: initial;
+}
+.joinSection {
+  display: flex;
+}
+button.joinDiscord {
+  width: 165px;
+  height: 45px;
+  background-color: #9076e9;
+  border-radius: 13px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+button.joinTelegram {
+  width: 165px;
+  height: 45px;
+  background-color: #478aff;
+  border-radius: 13px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.joinSectionText > span {
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footerSection > div:last-child {
+  width: 335px;
+}
+
+/* LinkGameAccount */
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.LinkGameAccount.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  background-color: #1b9ea7;
+  border: 1px solid #43f3ff;
+  width: 428px;
+  height: 61px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 88px;
+  border-radius: 9px;
+}
+
+.linkGmeAccountSection {
+  width: 100%;
+  background-color: #02222a;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.linkGmeAccountSection > div > div > h3 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #fff;
+  margin: initial;
+  text-align: left;
+}
+.linkGmeAccountSection > div > div > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #586a7d;
+  margin: initial;
+  text-align: left;
+  margin-top: 7px;
+}
+
+.defTextField {
+  background-color: #011a20;
+  border: 1px solid #025962;
+  border-radius: 9px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastStepText {
+  color: #43f3ff !important;
+  font-size: 17px !important;
+}
+
+.lastStepTopText {
+  font-size: 16px;
+  color: #586a7d;
+  width: 390px;
+  display: block;
+  margin-top: 15px;
+  line-height: 1.5em;
+}
+.walletAddress {
+  border: 1px solid #43f3ff;
+  border-radius: 9px;
+  padding: 18px 0;
+  width: 428px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 31px;
+}
+.walletAddress > h4 {
+  color: #43f3ff;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+}
+.cryptoEllipsis {
+  color: #586a7d;
+  font-size: 21px;
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.scrollSection {
+  width: 536px;
+  height: 340px;
+  overflow-y: scroll;
+  margin: 12px 0;
+  padding: 21px 25px;
+  background: #00191c;
+  border-radius: 19px;
+}
+.scrollSection > h5 {
+  color: #44b8d2;
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.scrollSection > span {
+  color: #586a7d;
+  font-size: 12px;
+}
+.usageAgree {
+  margin-left: 20px !important;
+}
+
+/* Firefox */
+.scrollSection {
+  scrollbar-width: auto;
+  scrollbar-color: #43f3ff #00191c;
+}
+
+/* Chrome, Edge, and Safari */
+.scrollSection::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scrollSection::-webkit-scrollbar-track {
+  border-radius: 30%;
+}
+
+.scrollSection::-webkit-scrollbar-thumb {
+  background-color: #43f3ff;
+  border-radius: 10px;
+  border: 5px solid #00191c;
+}
+.agreementBack {
+  border: 1px solid #43f3ff;
+  width: 248px;
+  height: 61px;
+  border-radius: 9px;
+  background-color: #02222a !important;
+  color: #fff;
+}
+.agreementAccept {
+  border: 1px solid #43f3ff;
+  width: 248px;
+  height: 61px;
+  border-radius: 9px;
+  background-color: #1b9ea7 !important;
+  color: #fff;
+}
+.agrementBtnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.agreementCheck {
+  margin-bottom: 20px;
+}
+.agreementCheck > span {
+  color: #44b8d2 !important;
+  font-size: 12px;
+  font-weight: 400;
+}
+.agreementCheck > span > svg {
+  font-size: 1.3em;
+}
+.text-center {
+  text-align: center !important;
+}
+.finishStepSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.finishStepSection > span.desc {
+  color: #e5e5e5;
+  font-size: 14px;
+}
+.gldyChar {
+  position: absolute;
+  transform: translate(-110px, -160px);
+}
+.jewel {
+  background-image: url("/images/Icon_CpBg.png");
+  width: 49px;
+  height: 44px;
+}
+.goldyCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}

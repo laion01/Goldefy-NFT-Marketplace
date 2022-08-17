@@ -1,0 +1,21 @@
+.container {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+}
+
+.arrow_left {
+    width: 0px;
+    height: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid #43F3FF; 
+}
+
+
+.arrow_right {
+    width: 0px;
+    height: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-left:8px solid #43F3FF; 
+}

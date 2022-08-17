@@ -1,0 +1,22 @@
+
+.header{
+  // box-shadow: 0 4px 12px 0 rgb(20 42 128 / 14%);
+  color: white;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 67px;
+  z-index: 2;
+  border-bottom: 2px solid #43F3FF;
+}
+
+.active_menu {
+  background-color: #0C4E53;
+  border-bottom: solid 5px #43F3FF;
+  padding-top: 11px;
+}
+
+.connect_wallet {
+  background-image: url('/images/connectWalletBtn.png');
+}

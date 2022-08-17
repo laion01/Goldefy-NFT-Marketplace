@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+} */
+
+@font-face {
+
+font-family: "Eurostile";
+
+src: url('/fonts/EurostileBold.ttf');
+
+font-style: bold;
+
+font-weight: 500;
+
+}
+
+@font-face {
+
+font-family: "Segoe UI";
+
+src: url('/fonts/SegoeUI.woff');
+
+font-style: normal;
+
+}
+
+/* @font-face {
+
+  font-family: "Segoe UI";
+  
+  src: url('/fonts/SegoeUIBold.woff');
+  
+  font-style: bold; 
+  
+} */
+
+@font-face {
+
+font-family: "SegoeUIBold";
+
+src: url('/fonts/SegoeUIBold.woff');
+
+font-style: bold;
+
+font-weight: 500;
+
+}
+
+@font-face {
+
+font-family: "EurostileNormal";
+
+src: url('/fonts/EuroStyleNormal.ttf');
+
+font-style: normal;
+
+font-weight: 300;
+
+}
+
+@font-face {
+
+font-family: "EurostileExtended";
+
+src: url('/fonts/EurostileExtended.ttf');
+
+font-style: bold;
+
+}
+
+ html,
+body {
+  font-family:  'Segoe UI';
+  font-weight: normal;
+}
+
+.font-euro {
+  font-family: 'Eurostile';
+}
+
+.font-euro-normal {
+  font-family: 'EurostileNormal';
+}
+
+.font-segoe {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+}
+
+.font-segoe-bold {
+  font-family: 'SegoeUIBold';
+}
